@@ -1,0 +1,47 @@
+body{
+    padding:0;
+    margin:0;
+    overflow-x:hidden;
+}
+
+.photo{
+    width:350px;
+    height: 400px;
+}
+
+.card{
+    width: 350px;
+    height: max-content;
+    padding-bottom: 5px;
+    box-shadow: rgba(0, 0, 0, 60%) 3px 3px 10px;
+    margin: 10px 5px;
+}
+
+.card h3{
+    margin-left: 10px;
+}
+
+.row{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content:space-evenly;
+}
+
+.inputfield{
+    width:80vw;
+    height:5vh;
+    margin: 10px 10vw;
+}
+
+.mglass{
+    padding:10px;
+    border-radius: 100%;
+}
+
+.mglass:hover{
+    background-color: black;
+    color: white;
+}
